@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+           style="@style/QuestionLayout">
+
+            <TextView
+                android:id="@+id/q1"
+                style="@style/TextStyle"
+                android:text="@string/firstQuestion"
+                android:textAlignment="center"
+
+                />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/FQA1"
+                    android:text="@string/Answer1_1"
+                    />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/FQA2"
+                    android:text="@string/Answer1_2"
+            />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/FQA3"
+                    android:text="@string/Answer1_3"
+                  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/submit1"
+                    style="@style/ButtonStyle"
+                    android:layout_weight="1"
+                    android:onClick="submit1"
+                    android:text="Submit" />
+
+                <Button
+                    android:id="@+id/viewanswer1"
+                    style="@style/ButtonStyle"
+                    android:layout_weight="1"
+                    android:onClick="viewAnswer1"
+                    android:text="View Answer" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+          style="@style/QuestionLayout">
+
+            <TextView
+                android:id="@+id/q2"
+                style="@style/TextStyle"
+                android:text="@string/secondQuestion"
+                android:textAlignment="center"
+
+                />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:id="@+id/yes"
+                    android:text="@string/sQA_yes"
+                   />
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:id="@+id/no"
+                    android:text="@string/sQA_No"
+                   />
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/submit2"
+                    style="@style/ButtonStyle"
+                    android:onClick="submit2"
+                    android:text="Submit" />
+
+                <Button
+                    android:id="@+id/viewanswer2"
+                    style="@style/ButtonStyle"
+                    android:onClick="viewAnswer2"
+                    android:text="View Answer" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionLayout">
+
+            <TextView
+                android:id="@+id/q3"
+                style="@style/TextStyle"
+                android:text="@string/thirdQuestion"
+                android:textAlignment="center"
+
+                />
+
+            <EditText
+                android:id="@+id/evenNumbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numbers are:"
+                android:inputType="textMultiLine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/submit3"
+                    style="@style/ButtonStyle"
+                    android:onClick="submit3"
+                    android:text="Submit" />
+
+                <Button
+                    android:id="@+id/viewanswer3"
+                    style="@style/ButtonStyle"
+                    android:onClick="viewAnswer3"
+                    android:text="View Answer" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionLayout">
+
+            <TextView
+                android:id="@+id/q4"
+                style="@style/TextStyle"
+                android:text="@string/forthQuestion"
+                android:textAlignment="center"
+
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:id="@+id/yes2"
+                    android:text="@string/sQA4_yes"
+                  />
+
+                <RadioButton
+                    style="@style/RadioButtonStyle"
+                    android:id="@+id/no2"
+                    android:text="@string/sQA4_No"
+                  />
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/submit4"
+                    style="@style/ButtonStyle"
+                    android:onClick="submit4"
+                    android:text="Submit" />
+
+                <Button
+                    android:id="@+id/viewanswer4"
+                    style="@style/ButtonStyle"
+                    android:onClick="viewAnswer4"
+                    android:text="View Answer" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionLayout">
+
+            <TextView
+                android:id="@+id/q5"
+                style="@style/TextStyle"
+                android:text="@string/fifthQuestion"
+                android:textAlignment="center"
+
+                />
+
+            <EditText
+                android:id="@+id/Aq5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="  "
+                android:inputType="textMultiLine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/submit5"
+                    style="@style/ButtonStyle"
+                    android:onClick="submit5"
+                    android:text="Submit" />
+
+                <Button
+                    android:id="@+id/viewanswer5"
+                    style="@style/ButtonStyle"
+                    android:onClick="viewAnswer5"
+                    android:text="View Answer" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/TotalScore"
+            style="@style/ButtonStyle"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:onClick="totalScore"
+            android:text="@string/TotalScoreButton" />
+    </LinearLayout>
+</ScrollView>

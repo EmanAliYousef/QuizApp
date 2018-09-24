@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Quiz your Math</string>
+    <string name="firstQuestion">q1_What is the Result of this
+        : 3 + 2 * 5 / 5 + 2 ??</string>
+
+    <string name="Answer1_1">2 * 10 -13 </string>
+    <string name="Answer1_2">9</string>
+    <string name="Answer1_3">7</string>
+
+
+    <string name="secondQuestion">Q2_Is -8 + 23 - 15 = zero ??</string>
+
+    <string name="sQA_yes">yes</string>
+    <string name="sQA_No">No</string>
+
+    <string name="thirdQuestion">Q3_What is the Largest Even  Number formed of three numbers ?? </string>
+
+    <string name="forthQuestion">Q4_ A and B are 2 integer numbers A + B = 10 , A * B = 21 What are the values of A and B ?? </string>
+
+    <string name="sQA4_yes">3,7</string>
+    <string name="sQA4_No">5,5</string>
+
+    <string name="fifthQuestion">Q5_What is the Result for This : 555 * 22 ?? </string>
+
+    <string name="TotalScoreButton">TotalScore</string>
+
+
+    <string name="AnswerMessage">Answer is : </string>
+    <string name="QuestionScoreMessage">Question Score is : </string>
+
+    <string name="PassQuestionMessage">AWOSOME!!your answer is TRUE</string>
+    <string name="FalseQuestionMessage">your answer is false Try Again</string>
+    <string name="TotalScoreMessage">your total score is</string>
+
+    <string name="PassingExamessage">Congratulation !!!!! you have pased the Exam</string>
+    <string name="RetestExamessage">MMMMMM ,Sorry You need to ReTest yourself</string>
+
+
+</resources>
